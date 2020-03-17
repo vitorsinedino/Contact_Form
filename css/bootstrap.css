@@ -469,6 +469,10 @@ form{
   padding: 20px;
 }
 
+form .form-control{
+  min-width: 100%;
+}
+
 .initialism {
   font-size: 90%;
   text-transform: uppercase;
@@ -1967,8 +1971,6 @@ pre code {
 }
 
 .form-control {
-  display: block;
-  width: 100%;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -4440,7 +4442,8 @@ tbody.collapse.show {
 }
 
 .card {
-  position: relative;
+  max-width: 30%;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4476,6 +4479,7 @@ tbody.collapse.show {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
+ 
 }
 
 .card-title {
